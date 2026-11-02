@@ -1,0 +1,23 @@
+#home {
+    background-color: #fff;
+    padding: 2rem;
+    text-align: center;
+
+}
+
+#about {
+    background-color: #f4f4f4;
+    padding: 2rem;
+    text-align: center;
+}
+
+#contact {
+    background-color: #fff;
+    padding: 2rem;
+    text-align: center;
+}
+
+#contact a {
+    color: #333;
+    text-decoration: none;
+}
