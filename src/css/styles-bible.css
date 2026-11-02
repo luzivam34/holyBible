@@ -9,3 +9,26 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 1rem;
 }
+
+.modulo {
+    Width: 100%;
+    Margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+.modulo ul {
+    margin: 1.8rem;
+    padding: 0.3rem;
+    font-size: 1.4rem;
+}
+
+.modulo ol {
+    margin: 1.8rem;
+    padding: 0.3rem;
+    font-size: 1.4rem;
+}
+
+.ativo {
+    background-color: #007bff;
+    color: white;
+}

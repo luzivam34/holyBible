@@ -25,17 +25,19 @@
         <aside>
             <h2>Menu Lateral</h2>
             <ul>
-                <li><a href="../index.html">Home</a></li>
+                <li><button type="button" data-modulo="modulo1" class="ativo">Novo Testamento</button></li>
+                <li><button type="button" data-modulo="modulo2">Velho Testamento</button></li>
             </ul>
         </aside>
-        <div>
-            <section id="newTestament" hidden>
-                <h2>Novo Testamento</h2>
-                <p>Esta é a seção do Novo Testamento da Bíblia.</p>
-            </section>
-            <section id="oldTestament">
+        <div>            
+            <section id="modulo2" class="modulo">
                 <h2>Velho Testamento</h2>
                 <p>Esta é a seção do Velho Testamento da Bíblia.</p>
+            </section>
+
+            <section id="modulo1" class="modulo" hidden>
+                <h2>Novo Testamento</h2>
+                <p>Esta é a seção do Novo Testamento da Bíblia.</p>
             </section>
 
         </div>
@@ -43,6 +45,7 @@
     <footer>
         <p>&copy; 2024 Bíblia. Todos os direitos reservados.</p>
     </footer>
+    <script src="../src/js/scriptsBible.js"></script>
 </body>
 
 </html>
